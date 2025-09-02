@@ -1,0 +1,27 @@
+{
+  "name": "awesome-poml-guide",
+  "version": "1.0.0",
+  "description": "A comprehensive guide and collection of examples for Prompt Orchestration Markup Language (POML)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test-poml.js",
+    "validate": "node test-poml.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugoparreao/awesome-poml-guide.git"
+  },
+  "keywords": [
+    "poml",
+    "prompt-engineering",
+    "llm",
+    "ai",
+    "microsoft"
+  ],
+  "author": "Hugo Parreão",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hugoparreao/awesome-poml-guide/issues"
+  },
+  "homepage": "https://github.com/hugoparreao/awesome-poml-guide#readme"
+}

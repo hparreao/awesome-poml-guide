@@ -1,0 +1,5 @@
+product_id,stock_level,category
+P001,150,Electronics
+P002,89,Home Appliances
+P003,0,Clothing
+P004,42,Books

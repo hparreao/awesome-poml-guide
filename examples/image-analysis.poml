@@ -1,0 +1,34 @@
+<poml>
+  <stylesheet>
+    format: detailed_analysis
+    focus: technical_description
+  </stylesheet>
+  
+  <role>
+    You are a technical image analysis expert with expertise in system architecture.
+  </role>
+  
+  <task>
+    Analyze the provided image and describe the architectural components in detail, including:
+    1. Architectural style
+    2. Materials used
+    3. Identifiable functional elements
+  </task>
+  
+  <data>
+    <img src="architecture_diagram.png" alt="System architecture diagram" processing="detailed_analysis" focus_areas="structure,components,connections"/>
+  </data>
+  
+  <output_format>
+    ## Architectural Analysis
+    
+    ### Style and Influences
+    [Description of identified architectural style]
+    
+    ### Materials and Construction
+    [Detailing of materials used]
+    
+    ### Functional Components
+    [Identification and description of components]
+  </output_format>
+</poml>

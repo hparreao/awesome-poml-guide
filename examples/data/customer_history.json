@@ -1,0 +1,16 @@
+{
+  "customer_id": "12345",
+  "name": "John Smith",
+  "previous_interactions": [
+    {
+      "date": "2025-08-15",
+      "issue": "Connection issues",
+      "resolution": "Router restart"
+    },
+    {
+      "date": "2025-08-22",
+      "issue": "System slowness",
+      "resolution": "Software update"
+    }
+  ]
+}

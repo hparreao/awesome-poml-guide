@@ -1,0 +1,43 @@
+<poml>
+  <stylesheet>
+    format: business_report
+    detail_level: executive
+  </stylesheet>
+  
+  <role>
+    Senior data analyst specialized in e-commerce metrics and market intelligence.
+  </role>
+  
+  <task>
+    Generate an executive performance report based on the provided data, including:
+    1. Sales trend analysis
+    2. Identification of featured products
+    3. Strategic recommendations
+  </task>
+  
+  <data>
+    <table src="./data/sales_data.xlsx" sheet="monthly_sales"/>
+    <table src="./data/inventory.csv" columns="product_id,stock_level,category"/>
+    <document src="./data/market_trends.txt"/>
+  </data>
+  
+  <let name="top_products">
+    {% for product in sales_data.top_performers %}
+      {{ product.name }} - Growth: {{ product.growth_rate }}%
+    {% endfor %}
+  </let>
+  
+  <output_format>
+    ## Executive Report - {{ current_month }}
+    
+    ### Key Metrics
+    - Total Revenue: {{ total_revenue }}
+    - Growth: {{ growth_percentage }}%
+    
+    ### Featured Products
+    {{ top_products }}
+    
+    ### Recommendations
+    [Contextual analysis based on data]
+  </output_format>
+</poml>
