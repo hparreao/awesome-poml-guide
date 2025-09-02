@@ -110,11 +110,11 @@ Generates business reports with data from multiple sources:
   </stylesheet>
   
   <role>
-    Analista de dados sênior especializado em métricas de e-commerce...
+    Senior data analyst specializing in e-commerce metrics...
   </role>
   
   <task>
-    Gere um relatório executivo de performance...
+    Generate an executive performance report...
   </task>
   
   <data>
@@ -133,7 +133,7 @@ Analyze technical diagrams and images:
 <poml>
   <data>
     <img src="./architecture_diagram.png" 
-         alt="Diagrama da arquitetura do sistema" 
+         alt="System architecture diagram" 
          processing="detailed_analysis" 
          focus_areas="structure,components,connections"/>
   </data>
@@ -209,11 +209,6 @@ poml_content = parse_poml('./examples/ecommerce-report.poml')
 - **Version Control**: Native Git integration for prompt versioning
 - **Scalability**: Stateless architecture supports horizontal scaling
 
-## Limitations
-
-- Learning curve for teams familiar with traditional prompt engineering
-- Dependency on Microsoft's framework and continued support
-- Potential rigidity for unconventional creative approaches
 
 ## Resources
 
@@ -239,3 +234,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Microsoft Research for developing the POML specification
 - The open-source community for adopting and extending structured prompt engineering approaches
+
+
+  <div align="center">
+
+**Made with ❤️ by [Hugo Parreão]**
+
+[⭐ Star this project](https://github.com/hparreao/awesome-poml-guide) • [🍴 Fork it](https://github.com/hparreao/awesome-poml-guide/fork) • [📢 Report Issues](https://github.com/hparreao/awesome-poml-guide/issues)
+
+</div>
